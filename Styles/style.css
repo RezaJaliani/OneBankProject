@@ -4,3 +4,40 @@
     padding: 0;
     box-sizing: border-box;
 }
+header{
+    width: 100%;
+}
+nav{
+    height: 15vh;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    top: 50%;
+}
+nav *{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    display: inline;
+    font-size: 1.4rem;
+    padding: 30px;
+}
+#imgLogo{
+    height: 4rem;
+}
+#imgCorner{
+    height: 4rem;
+}
+main{
+    background-color: aquamarine;
+    width: auto;
+    height: 100em;
+}
