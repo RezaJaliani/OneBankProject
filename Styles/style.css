@@ -1,8 +1,12 @@
 *{
     font-family: 'DM Sans', sans-serif;
+    font-family: 'Noto Sans Display', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body{
+    margin: 1%;
 }
 header{
     width: 100%;
@@ -12,7 +16,6 @@ nav{
     padding: 2rem;
     display: flex;
     justify-content: space-between;
-    top: 50%;
 }
 nav *{
     margin-top: auto;
@@ -36,8 +39,28 @@ nav ul li{
 #imgCorner{
     height: 4rem;
 }
-main{
-    background-color: aquamarine;
-    width: auto;
-    height: 100em;
+#topLine{
+    margin: 0 1% 2% 1%;
+    height: 3px;
+    background-color:grey;
+}
+#firstPage{
+    display: flex;
+}
+#firstPage div{
+    margin: auto;
+}
+#titrPage1{
+    font-size: 6em;
+}
+#passagePage1{
+    font-size: 1.2em;
+}
+#imgp1p2{
+    padding: 4em;
+    display: block;    
+}
+#imgp1p3{
+    padding: 4em;
+    display: block;    
 }
