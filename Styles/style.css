@@ -46,6 +46,7 @@ nav ul li{
 }
 #firstPage{
     display: flex;
+    background-color: aqua;
 }
 #firstPage div{
     margin: auto;
@@ -63,4 +64,13 @@ nav ul li{
 #imgp1p3{
     padding: 4em;
     display: block;    
+}
+#secondPage{
+    display: flex;
+    background-color: chocolate;
+}
+#secondPage div div{
+    width: 200px;
+    height: 200px;
+    background-color: azure;
 }
